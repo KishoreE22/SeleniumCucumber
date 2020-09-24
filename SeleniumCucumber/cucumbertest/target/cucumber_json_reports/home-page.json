@@ -1,0 +1,249 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-24T12:40:09.107Z",
+        "line": 12,
+        "name": "Check page display",
+        "description": "",
+        "id": "home-page;check-page-display;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.selenium.pages.HomePage.goToHomePage(HomePage.java:31)\r\n\tat com.selenium.steps.HomePageSteps.aUserNavigatesToHomePage(HomePageSteps.java:22)\r\n\tat ✽.A user navigates to HomePage \"fr\"(file:///C:/Users/kisho/eclipse-workspace/cucumbertest/src/test/java/com/selenium/features/Home_page.feature:6)\r\n",
+              "duration": 238000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "A user navigates to HomePage \"fr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fr",
+                  "offset": 30
+                }
+              ],
+              "location": "com.selenium.steps.HomePageSteps.aUserNavigatesToHomePage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Google logo is displayed",
+            "match": {
+              "location": "com.selenium.steps.HomePageSteps.googleLogoIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "search bar is displayed",
+            "match": {
+              "location": "com.selenium.steps.HomePageSteps.searchBarIsDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home_page"
+          },
+          {
+            "name": "@home_page_display"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T12:40:09.583Z",
+        "line": 13,
+        "name": "Check page display",
+        "description": "",
+        "id": "home-page;check-page-display;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.selenium.pages.HomePage.goToHomePage(HomePage.java:31)\r\n\tat com.selenium.steps.HomePageSteps.aUserNavigatesToHomePage(HomePageSteps.java:22)\r\n\tat ✽.A user navigates to HomePage \"com\"(file:///C:/Users/kisho/eclipse-workspace/cucumbertest/src/test/java/com/selenium/features/Home_page.feature:6)\r\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "A user navigates to HomePage \"com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "com",
+                  "offset": 30
+                }
+              ],
+              "location": "com.selenium.steps.HomePageSteps.aUserNavigatesToHomePage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Google logo is displayed",
+            "match": {
+              "location": "com.selenium.steps.HomePageSteps.googleLogoIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "search bar is displayed",
+            "match": {
+              "location": "com.selenium.steps.HomePageSteps.searchBarIsDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home_page"
+          },
+          {
+            "name": "@home_page_display"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T12:40:09.661Z",
+        "line": 16,
+        "name": "Check title",
+        "description": "",
+        "id": "home-page;check-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.selenium.pages.HomePage.goToHomePage(HomePage.java:31)\r\n\tat com.selenium.steps.HomePageSteps.aUserNavigatesToHomePage(HomePageSteps.java:22)\r\n\tat ✽.A user navigates to HomePage \"fr\"(file:///C:/Users/kisho/eclipse-workspace/cucumbertest/src/test/java/com/selenium/features/Home_page.feature:17)\r\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "A user navigates to HomePage \"fr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fr",
+                  "offset": 30
+                }
+              ],
+              "location": "com.selenium.steps.HomePageSteps.aUserNavigatesToHomePage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "page title is \"Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google",
+                  "offset": 15
+                }
+              ],
+              "location": "com.selenium.steps.HomePageSteps.pageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home_page"
+          },
+          {
+            "name": "@home_page_title"
+          }
+        ]
+      }
+    ],
+    "name": "Home page",
+    "description": "",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/selenium/features/Home_page.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-24T12:40:09.734Z",
+        "line": 3,
+        "name": "Verification of Reset button",
+        "description": "",
+        "id": "reset-functionality-on-login-page-of-application;verification-of-reset-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10761000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Firefox and launch the application",
+            "match": {
+              "location": "com.selenium.steps.StepDefinitions.open_the_Firefox_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2032000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the Username and Password",
+            "match": {
+              "location": "com.selenium.steps.StepDefinitions.enter_the_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 557000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Reset the credential",
+            "match": {
+              "location": "com.selenium.steps.StepDefinitions.Reset_the_credential()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Reset functionality on login page of Application",
+    "description": "",
+    "id": "reset-functionality-on-login-page-of-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/selenium/features/Test.feature",
+    "tags": []
+  }
+]
